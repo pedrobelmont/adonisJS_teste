@@ -1,0 +1,22 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "facudade",
+            "group": "laborat",
+            "password": "1234",
+            "database": "postgres",
+            "username": "postgres"
+        },
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "database": "${workspaceFolder:adonis}/hello-world/tmp/db.sqlite3",
+            "name": "sqliteAdonis"
+        }
+    ],
+    "sqltools.useNodeRuntime": true
+}
